@@ -6,3 +6,7 @@ This assignment focuses on building resilient Python functions that gracefully h
 
 * **`safe_tools.py`**: A module containing utility functions for error-safe division, string-to-number conversion, and dictionary key lookups.
 * **`unbreakable.py`**: A test script that imports and executes the utility functions to verify they produce the required output.
+
+## Key Takeaway
+
+An `if` statement can only check for conditions you explicitly anticipate before running code. In contrast, `try/except` blocks actively catch unexpected runtime errors—like attempting to convert invalid text into a number (`int("abc")`)—preventing the program from crashing.
